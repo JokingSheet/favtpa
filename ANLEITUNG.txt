@@ -1,0 +1,10 @@
+JAR BAUEN (ohne irgendwas zu installieren) - per GitHub:
+1. Auf github.com einloggen -> New repository (z.B. "favtpa"), Public oder Private.
+2. "uploading an existing file" klicken und den KOMPLETTEN INHALT dieses Ordners hochziehen
+   (inkl. dem versteckten Ordner .github!). Commit.
+3. Reiter "Actions" -> "Build mod" -> warten (ca. 3-5 Min).
+4. Auf den fertigen Lauf klicken -> unten unter "Artifacts" -> "favtpa-jar" herunterladen.
+5. In der ZIP liegt favtpa-1.0.0.jar -> in den mods-Ordner (Minecraft 1.21.11 + Fabric + Fabric API).
+
+Lokal bauen (wenn Java 21 + Gradle 9.2+ installiert): gradle build -> build/libs/favtpa-1.0.0.jar
+Taste im Spiel: K
